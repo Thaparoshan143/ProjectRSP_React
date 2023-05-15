@@ -1,0 +1,35 @@
+
+.Nav-Items
+{
+    font-size:1rem;
+    list-style:none;
+    padding:0.5rem 2rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.Nav-Item
+{
+    padding:0.5rem;
+    transition:0.5s;
+    cursor:pointer;
+    border-bottom:3px solid transparent;
+}
+
+.Nav-Item:hover
+{
+    --item-color:rgb(220, 134, 21);
+    color:var(--item-color);
+    transform:scale(1.1);
+    border-bottom:3px solid var(--item-color);
+}
+
+.Main-Logo-Text
+{
+    margin-right:15rem;
+    font-size:1.3rem;
+    color:rgb(192, 117, 19);
+    cursor:pointer;
+}
+
+
